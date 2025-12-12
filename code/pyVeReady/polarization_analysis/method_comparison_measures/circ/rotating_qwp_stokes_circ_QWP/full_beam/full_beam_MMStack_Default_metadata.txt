@@ -1,0 +1,2192 @@
+{
+"Summary": {
+  "UserName": "Usuario",
+  "ProfileName": "Default User",
+  "MicroManagerVersion": "2.0.0",
+  "MetadataVersion": "12.0.0",
+  "ComputerName": "ID75605",
+  "ChannelGroup": "",
+  "ChNames": [
+    ""
+  ],
+  "AxisOrder": [
+    "time",
+    "channel",
+    "z",
+    "position"
+  ],
+  "TimeFirst": false,
+  "SlicesFirst": true,
+  "Width": 0,
+  "Height": 0,
+  "UserData": {}
+},
+"FrameKey-0-0-0": {
+  "UUID": "748fdf16-2d24-41f2-ae8b-b853250e7266",
+  "Camera": "TIS_DCAM",
+  "Binning": 1,
+  "ROI": "0-0-744-480",
+  "BitDepth": 8,
+  "ElapsedTime-ms": 2847913.46,
+  "ImageNumber": 89,
+  "ReceivedTime": "2025-01-15 12:44:31.042 +0100",
+  "PixelSizeUm": 0.0,
+  "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
+  "PositionName": "Default",
+  "XPositionUm": 0.0,
+  "YPositionUm": 0.0,
+  "ZPositionUm": 0.0,
+  "TIS_DCAM-Binning": "1",
+  "TIS_DCAM-CameraName": "DMK 22BUC03",
+  "TIS_DCAM-DeNoise": "2",
+  "TIS_DCAM-Description": "TIS DirectShow driver module",
+  "TIS_DCAM-Device Flip_H": "Off",
+  "TIS_DCAM-Device Flip_V": "Off",
+  "TIS_DCAM-Device Properties": "Click here for Device Property dialog",
+  "TIS_DCAM-Device Rotation": "0",
+  "TIS_DCAM-Device SerialNumber": "0x44310021",
+  "TIS_DCAM-Exposure": "1.00",
+  "TIS_DCAM-Exposure Auto": "Off",
+  "TIS_DCAM-Name": "DMK 22BUC03 Y800 (744x480)",
+  "TIS_DCAM-Property Brightness": "0",
+  "TIS_DCAM-Property Gain": "16",
+  "TIS_DCAM-Property Gain_Auto": "Off",
+  "TIS_DCAM-Property White_Balance": "0",
+  "TIS_DCAM-Property White_Balance_Auto": "n/a",
+  "TIS_DCAM-Property White_Balance_Blue": "0",
+  "TIS_DCAM-Property White_Balance_Green": "0",
+  "TIS_DCAM-Property White_Balance_Red": "0",
+  "TIS_DCAM-TransposeCorrection": "0",
+  "TIS_DCAM-TransposeMirrorX": "0",
+  "TIS_DCAM-TransposeMirrorY": "0",
+  "TIS_DCAM-TransposeXY": "0",
+  "TIS_DCAM-TriggerMode": "Internal",
+  "Core-AutoFocus": "",
+  "Core-AutoShutter": "1",
+  "Core-Camera": "TIS_DCAM",
+  "Core-ChannelGroup": "",
+  "Core-Focus": "",
+  "Core-Galvo": "",
+  "Core-ImageProcessor": "",
+  "Core-Initialize": "1",
+  "Core-SLM": "",
+  "Core-Shutter": "",
+  "Core-TimeoutMs": "5000",
+  "Core-XYStage": "",
+  "ScopeDataKeys": [
+    "TIS_DCAM-Binning",
+    "TIS_DCAM-CameraName",
+    "TIS_DCAM-DeNoise",
+    "TIS_DCAM-Description",
+    "TIS_DCAM-Device Flip_H",
+    "TIS_DCAM-Device Flip_V",
+    "TIS_DCAM-Device Properties",
+    "TIS_DCAM-Device Rotation",
+    "TIS_DCAM-Device SerialNumber",
+    "TIS_DCAM-Exposure",
+    "TIS_DCAM-Exposure Auto",
+    "TIS_DCAM-Name",
+    "TIS_DCAM-Property Brightness",
+    "TIS_DCAM-Property Gain",
+    "TIS_DCAM-Property Gain_Auto",
+    "TIS_DCAM-Property White_Balance",
+    "TIS_DCAM-Property White_Balance_Auto",
+    "TIS_DCAM-Property White_Balance_Blue",
+    "TIS_DCAM-Property White_Balance_Green",
+    "TIS_DCAM-Property White_Balance_Red",
+    "TIS_DCAM-TransposeCorrection",
+    "TIS_DCAM-TransposeMirrorX",
+    "TIS_DCAM-TransposeMirrorY",
+    "TIS_DCAM-TransposeXY",
+    "TIS_DCAM-TriggerMode",
+    "Core-AutoFocus",
+    "Core-AutoShutter",
+    "Core-Camera",
+    "Core-ChannelGroup",
+    "Core-Focus",
+    "Core-Galvo",
+    "Core-ImageProcessor",
+    "Core-Initialize",
+    "Core-SLM",
+    "Core-Shutter",
+    "Core-TimeoutMs",
+    "Core-XYStage"
+  ],
+  "UserData": {
+    "Core-AutoFocus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-AutoShutter": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-Camera": {
+      "type": "STRING",
+      "scalar": "TIS_DCAM"
+    },
+    "Core-ChannelGroup": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Focus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Galvo": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-ImageProcessor": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Initialize": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-SLM": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Shutter": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-TimeoutMs": {
+      "type": "STRING",
+      "scalar": "5000"
+    },
+    "Core-XYStage": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "ROI-X-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "ROI-Y-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "StartTime-ms": {
+      "type": "STRING",
+      "scalar": "790257423125.79"
+    },
+    "TIS_DCAM-Binning": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "TIS_DCAM-CameraName": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03"
+    },
+    "TIS_DCAM-DeNoise": {
+      "type": "STRING",
+      "scalar": "2"
+    },
+    "TIS_DCAM-Description": {
+      "type": "STRING",
+      "scalar": "TIS DirectShow driver module"
+    },
+    "TIS_DCAM-Device Flip_H": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Flip_V": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Properties": {
+      "type": "STRING",
+      "scalar": "Click here for Device Property dialog"
+    },
+    "TIS_DCAM-Device Rotation": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Device SerialNumber": {
+      "type": "STRING",
+      "scalar": "0x44310021"
+    },
+    "TIS_DCAM-ElapsedTime-ms": {
+      "type": "STRING",
+      "scalar": "790260271039.24"
+    },
+    "TIS_DCAM-Exposure": {
+      "type": "STRING",
+      "scalar": "1.00"
+    },
+    "TIS_DCAM-Exposure Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-ImageNumber": {
+      "type": "STRING",
+      "scalar": "21375"
+    },
+    "TIS_DCAM-Name": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03 Y800 (744x480)"
+    },
+    "TIS_DCAM-Property Brightness": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property Gain": {
+      "type": "STRING",
+      "scalar": "16"
+    },
+    "TIS_DCAM-Property Gain_Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Property White_Balance": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Auto": {
+      "type": "STRING",
+      "scalar": "n/a"
+    },
+    "TIS_DCAM-Property White_Balance_Blue": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Green": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Red": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-StartTime-ms": {
+      "type": "STRING",
+      "scalar": "0.00"
+    },
+    "TIS_DCAM-TransposeCorrection": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorX": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeXY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TriggerMode": {
+      "type": "STRING",
+      "scalar": "Internal"
+    },
+    "TimeReceivedByCore": {
+      "type": "STRING",
+      "scalar": "2025-01-15 12:44:31.039243"
+    }
+  },
+  "FileName": "full_beam_MMStack_Default.ome.tif"
+},
+"FrameKey-1-0-0": {
+  "UUID": "539d7e12-9a9e-463f-a47c-a95f0c6b4b1b",
+  "Camera": "TIS_DCAM",
+  "Binning": 1,
+  "ROI": "0-0-744-480",
+  "BitDepth": 8,
+  "ElapsedTime-ms": 2853108.5,
+  "ImageNumber": 128,
+  "ReceivedTime": "2025-01-15 12:44:36.318 +0100",
+  "PixelSizeUm": 0.0,
+  "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
+  "PositionName": "Default",
+  "XPositionUm": 0.0,
+  "YPositionUm": 0.0,
+  "ZPositionUm": 0.0,
+  "TIS_DCAM-Binning": "1",
+  "TIS_DCAM-CameraName": "DMK 22BUC03",
+  "TIS_DCAM-DeNoise": "2",
+  "TIS_DCAM-Description": "TIS DirectShow driver module",
+  "TIS_DCAM-Device Flip_H": "Off",
+  "TIS_DCAM-Device Flip_V": "Off",
+  "TIS_DCAM-Device Properties": "Click here for Device Property dialog",
+  "TIS_DCAM-Device Rotation": "0",
+  "TIS_DCAM-Device SerialNumber": "0x44310021",
+  "TIS_DCAM-Exposure": "1.00",
+  "TIS_DCAM-Exposure Auto": "Off",
+  "TIS_DCAM-Name": "DMK 22BUC03 Y800 (744x480)",
+  "TIS_DCAM-Property Brightness": "0",
+  "TIS_DCAM-Property Gain": "16",
+  "TIS_DCAM-Property Gain_Auto": "Off",
+  "TIS_DCAM-Property White_Balance": "0",
+  "TIS_DCAM-Property White_Balance_Auto": "n/a",
+  "TIS_DCAM-Property White_Balance_Blue": "0",
+  "TIS_DCAM-Property White_Balance_Green": "0",
+  "TIS_DCAM-Property White_Balance_Red": "0",
+  "TIS_DCAM-TransposeCorrection": "0",
+  "TIS_DCAM-TransposeMirrorX": "0",
+  "TIS_DCAM-TransposeMirrorY": "0",
+  "TIS_DCAM-TransposeXY": "0",
+  "TIS_DCAM-TriggerMode": "Internal",
+  "Core-AutoFocus": "",
+  "Core-AutoShutter": "1",
+  "Core-Camera": "TIS_DCAM",
+  "Core-ChannelGroup": "",
+  "Core-Focus": "",
+  "Core-Galvo": "",
+  "Core-ImageProcessor": "",
+  "Core-Initialize": "1",
+  "Core-SLM": "",
+  "Core-Shutter": "",
+  "Core-TimeoutMs": "5000",
+  "Core-XYStage": "",
+  "ScopeDataKeys": [
+    "TIS_DCAM-Binning",
+    "TIS_DCAM-CameraName",
+    "TIS_DCAM-DeNoise",
+    "TIS_DCAM-Description",
+    "TIS_DCAM-Device Flip_H",
+    "TIS_DCAM-Device Flip_V",
+    "TIS_DCAM-Device Properties",
+    "TIS_DCAM-Device Rotation",
+    "TIS_DCAM-Device SerialNumber",
+    "TIS_DCAM-Exposure",
+    "TIS_DCAM-Exposure Auto",
+    "TIS_DCAM-Name",
+    "TIS_DCAM-Property Brightness",
+    "TIS_DCAM-Property Gain",
+    "TIS_DCAM-Property Gain_Auto",
+    "TIS_DCAM-Property White_Balance",
+    "TIS_DCAM-Property White_Balance_Auto",
+    "TIS_DCAM-Property White_Balance_Blue",
+    "TIS_DCAM-Property White_Balance_Green",
+    "TIS_DCAM-Property White_Balance_Red",
+    "TIS_DCAM-TransposeCorrection",
+    "TIS_DCAM-TransposeMirrorX",
+    "TIS_DCAM-TransposeMirrorY",
+    "TIS_DCAM-TransposeXY",
+    "TIS_DCAM-TriggerMode",
+    "Core-AutoFocus",
+    "Core-AutoShutter",
+    "Core-Camera",
+    "Core-ChannelGroup",
+    "Core-Focus",
+    "Core-Galvo",
+    "Core-ImageProcessor",
+    "Core-Initialize",
+    "Core-SLM",
+    "Core-Shutter",
+    "Core-TimeoutMs",
+    "Core-XYStage"
+  ],
+  "UserData": {
+    "Core-AutoFocus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-AutoShutter": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-Camera": {
+      "type": "STRING",
+      "scalar": "TIS_DCAM"
+    },
+    "Core-ChannelGroup": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Focus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Galvo": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-ImageProcessor": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Initialize": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-SLM": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Shutter": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-TimeoutMs": {
+      "type": "STRING",
+      "scalar": "5000"
+    },
+    "Core-XYStage": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "ROI-X-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "ROI-Y-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "StartTime-ms": {
+      "type": "STRING",
+      "scalar": "790257423125.79"
+    },
+    "TIS_DCAM-Binning": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "TIS_DCAM-CameraName": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03"
+    },
+    "TIS_DCAM-DeNoise": {
+      "type": "STRING",
+      "scalar": "2"
+    },
+    "TIS_DCAM-Description": {
+      "type": "STRING",
+      "scalar": "TIS DirectShow driver module"
+    },
+    "TIS_DCAM-Device Flip_H": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Flip_V": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Properties": {
+      "type": "STRING",
+      "scalar": "Click here for Device Property dialog"
+    },
+    "TIS_DCAM-Device Rotation": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Device SerialNumber": {
+      "type": "STRING",
+      "scalar": "0x44310021"
+    },
+    "TIS_DCAM-ElapsedTime-ms": {
+      "type": "STRING",
+      "scalar": "790260276234.28"
+    },
+    "TIS_DCAM-Exposure": {
+      "type": "STRING",
+      "scalar": "1.00"
+    },
+    "TIS_DCAM-Exposure Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-ImageNumber": {
+      "type": "STRING",
+      "scalar": "21414"
+    },
+    "TIS_DCAM-Name": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03 Y800 (744x480)"
+    },
+    "TIS_DCAM-Property Brightness": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property Gain": {
+      "type": "STRING",
+      "scalar": "16"
+    },
+    "TIS_DCAM-Property Gain_Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Property White_Balance": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Auto": {
+      "type": "STRING",
+      "scalar": "n/a"
+    },
+    "TIS_DCAM-Property White_Balance_Blue": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Green": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Red": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-StartTime-ms": {
+      "type": "STRING",
+      "scalar": "0.00"
+    },
+    "TIS_DCAM-TransposeCorrection": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorX": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeXY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TriggerMode": {
+      "type": "STRING",
+      "scalar": "Internal"
+    },
+    "TimeReceivedByCore": {
+      "type": "STRING",
+      "scalar": "2025-01-15 12:44:36.235286"
+    }
+  },
+  "FileName": "full_beam_MMStack_Default.ome.tif"
+},
+"FrameKey-2-0-0": {
+  "UUID": "147018e3-f1ee-4c3e-8974-e77b24c02e58",
+  "Camera": "TIS_DCAM",
+  "Binning": 1,
+  "ROI": "0-0-744-480",
+  "BitDepth": 8,
+  "ElapsedTime-ms": 2856173.8,
+  "ImageNumber": 151,
+  "ReceivedTime": "2025-01-15 12:44:39.335 +0100",
+  "PixelSizeUm": 0.0,
+  "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
+  "PositionName": "Default",
+  "XPositionUm": 0.0,
+  "YPositionUm": 0.0,
+  "ZPositionUm": 0.0,
+  "TIS_DCAM-Binning": "1",
+  "TIS_DCAM-CameraName": "DMK 22BUC03",
+  "TIS_DCAM-DeNoise": "2",
+  "TIS_DCAM-Description": "TIS DirectShow driver module",
+  "TIS_DCAM-Device Flip_H": "Off",
+  "TIS_DCAM-Device Flip_V": "Off",
+  "TIS_DCAM-Device Properties": "Click here for Device Property dialog",
+  "TIS_DCAM-Device Rotation": "0",
+  "TIS_DCAM-Device SerialNumber": "0x44310021",
+  "TIS_DCAM-Exposure": "1.00",
+  "TIS_DCAM-Exposure Auto": "Off",
+  "TIS_DCAM-Name": "DMK 22BUC03 Y800 (744x480)",
+  "TIS_DCAM-Property Brightness": "0",
+  "TIS_DCAM-Property Gain": "16",
+  "TIS_DCAM-Property Gain_Auto": "Off",
+  "TIS_DCAM-Property White_Balance": "0",
+  "TIS_DCAM-Property White_Balance_Auto": "n/a",
+  "TIS_DCAM-Property White_Balance_Blue": "0",
+  "TIS_DCAM-Property White_Balance_Green": "0",
+  "TIS_DCAM-Property White_Balance_Red": "0",
+  "TIS_DCAM-TransposeCorrection": "0",
+  "TIS_DCAM-TransposeMirrorX": "0",
+  "TIS_DCAM-TransposeMirrorY": "0",
+  "TIS_DCAM-TransposeXY": "0",
+  "TIS_DCAM-TriggerMode": "Internal",
+  "Core-AutoFocus": "",
+  "Core-AutoShutter": "1",
+  "Core-Camera": "TIS_DCAM",
+  "Core-ChannelGroup": "",
+  "Core-Focus": "",
+  "Core-Galvo": "",
+  "Core-ImageProcessor": "",
+  "Core-Initialize": "1",
+  "Core-SLM": "",
+  "Core-Shutter": "",
+  "Core-TimeoutMs": "5000",
+  "Core-XYStage": "",
+  "ScopeDataKeys": [
+    "TIS_DCAM-Binning",
+    "TIS_DCAM-CameraName",
+    "TIS_DCAM-DeNoise",
+    "TIS_DCAM-Description",
+    "TIS_DCAM-Device Flip_H",
+    "TIS_DCAM-Device Flip_V",
+    "TIS_DCAM-Device Properties",
+    "TIS_DCAM-Device Rotation",
+    "TIS_DCAM-Device SerialNumber",
+    "TIS_DCAM-Exposure",
+    "TIS_DCAM-Exposure Auto",
+    "TIS_DCAM-Name",
+    "TIS_DCAM-Property Brightness",
+    "TIS_DCAM-Property Gain",
+    "TIS_DCAM-Property Gain_Auto",
+    "TIS_DCAM-Property White_Balance",
+    "TIS_DCAM-Property White_Balance_Auto",
+    "TIS_DCAM-Property White_Balance_Blue",
+    "TIS_DCAM-Property White_Balance_Green",
+    "TIS_DCAM-Property White_Balance_Red",
+    "TIS_DCAM-TransposeCorrection",
+    "TIS_DCAM-TransposeMirrorX",
+    "TIS_DCAM-TransposeMirrorY",
+    "TIS_DCAM-TransposeXY",
+    "TIS_DCAM-TriggerMode",
+    "Core-AutoFocus",
+    "Core-AutoShutter",
+    "Core-Camera",
+    "Core-ChannelGroup",
+    "Core-Focus",
+    "Core-Galvo",
+    "Core-ImageProcessor",
+    "Core-Initialize",
+    "Core-SLM",
+    "Core-Shutter",
+    "Core-TimeoutMs",
+    "Core-XYStage"
+  ],
+  "UserData": {
+    "Core-AutoFocus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-AutoShutter": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-Camera": {
+      "type": "STRING",
+      "scalar": "TIS_DCAM"
+    },
+    "Core-ChannelGroup": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Focus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Galvo": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-ImageProcessor": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Initialize": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-SLM": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Shutter": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-TimeoutMs": {
+      "type": "STRING",
+      "scalar": "5000"
+    },
+    "Core-XYStage": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "ROI-X-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "ROI-Y-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "StartTime-ms": {
+      "type": "STRING",
+      "scalar": "790257423125.79"
+    },
+    "TIS_DCAM-Binning": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "TIS_DCAM-CameraName": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03"
+    },
+    "TIS_DCAM-DeNoise": {
+      "type": "STRING",
+      "scalar": "2"
+    },
+    "TIS_DCAM-Description": {
+      "type": "STRING",
+      "scalar": "TIS DirectShow driver module"
+    },
+    "TIS_DCAM-Device Flip_H": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Flip_V": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Properties": {
+      "type": "STRING",
+      "scalar": "Click here for Device Property dialog"
+    },
+    "TIS_DCAM-Device Rotation": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Device SerialNumber": {
+      "type": "STRING",
+      "scalar": "0x44310021"
+    },
+    "TIS_DCAM-ElapsedTime-ms": {
+      "type": "STRING",
+      "scalar": "790260279299.59"
+    },
+    "TIS_DCAM-Exposure": {
+      "type": "STRING",
+      "scalar": "1.00"
+    },
+    "TIS_DCAM-Exposure Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-ImageNumber": {
+      "type": "STRING",
+      "scalar": "21437"
+    },
+    "TIS_DCAM-Name": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03 Y800 (744x480)"
+    },
+    "TIS_DCAM-Property Brightness": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property Gain": {
+      "type": "STRING",
+      "scalar": "16"
+    },
+    "TIS_DCAM-Property Gain_Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Property White_Balance": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Auto": {
+      "type": "STRING",
+      "scalar": "n/a"
+    },
+    "TIS_DCAM-Property White_Balance_Blue": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Green": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Red": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-StartTime-ms": {
+      "type": "STRING",
+      "scalar": "0.00"
+    },
+    "TIS_DCAM-TransposeCorrection": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorX": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeXY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TriggerMode": {
+      "type": "STRING",
+      "scalar": "Internal"
+    },
+    "TimeReceivedByCore": {
+      "type": "STRING",
+      "scalar": "2025-01-15 12:44:39.299588"
+    }
+  },
+  "FileName": "full_beam_MMStack_Default.ome.tif"
+},
+"FrameKey-3-0-0": {
+  "UUID": "07f3be4a-49af-4b56-96d7-1ad2042d4c6b",
+  "Camera": "TIS_DCAM",
+  "Binning": 1,
+  "ROI": "0-0-744-480",
+  "BitDepth": 8,
+  "ElapsedTime-ms": 2859637.2,
+  "ImageNumber": 177,
+  "ReceivedTime": "2025-01-15 12:44:42.772 +0100",
+  "PixelSizeUm": 0.0,
+  "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
+  "PositionName": "Default",
+  "XPositionUm": 0.0,
+  "YPositionUm": 0.0,
+  "ZPositionUm": 0.0,
+  "TIS_DCAM-Binning": "1",
+  "TIS_DCAM-CameraName": "DMK 22BUC03",
+  "TIS_DCAM-DeNoise": "2",
+  "TIS_DCAM-Description": "TIS DirectShow driver module",
+  "TIS_DCAM-Device Flip_H": "Off",
+  "TIS_DCAM-Device Flip_V": "Off",
+  "TIS_DCAM-Device Properties": "Click here for Device Property dialog",
+  "TIS_DCAM-Device Rotation": "0",
+  "TIS_DCAM-Device SerialNumber": "0x44310021",
+  "TIS_DCAM-Exposure": "1.00",
+  "TIS_DCAM-Exposure Auto": "Off",
+  "TIS_DCAM-Name": "DMK 22BUC03 Y800 (744x480)",
+  "TIS_DCAM-Property Brightness": "0",
+  "TIS_DCAM-Property Gain": "16",
+  "TIS_DCAM-Property Gain_Auto": "Off",
+  "TIS_DCAM-Property White_Balance": "0",
+  "TIS_DCAM-Property White_Balance_Auto": "n/a",
+  "TIS_DCAM-Property White_Balance_Blue": "0",
+  "TIS_DCAM-Property White_Balance_Green": "0",
+  "TIS_DCAM-Property White_Balance_Red": "0",
+  "TIS_DCAM-TransposeCorrection": "0",
+  "TIS_DCAM-TransposeMirrorX": "0",
+  "TIS_DCAM-TransposeMirrorY": "0",
+  "TIS_DCAM-TransposeXY": "0",
+  "TIS_DCAM-TriggerMode": "Internal",
+  "Core-AutoFocus": "",
+  "Core-AutoShutter": "1",
+  "Core-Camera": "TIS_DCAM",
+  "Core-ChannelGroup": "",
+  "Core-Focus": "",
+  "Core-Galvo": "",
+  "Core-ImageProcessor": "",
+  "Core-Initialize": "1",
+  "Core-SLM": "",
+  "Core-Shutter": "",
+  "Core-TimeoutMs": "5000",
+  "Core-XYStage": "",
+  "ScopeDataKeys": [
+    "TIS_DCAM-Binning",
+    "TIS_DCAM-CameraName",
+    "TIS_DCAM-DeNoise",
+    "TIS_DCAM-Description",
+    "TIS_DCAM-Device Flip_H",
+    "TIS_DCAM-Device Flip_V",
+    "TIS_DCAM-Device Properties",
+    "TIS_DCAM-Device Rotation",
+    "TIS_DCAM-Device SerialNumber",
+    "TIS_DCAM-Exposure",
+    "TIS_DCAM-Exposure Auto",
+    "TIS_DCAM-Name",
+    "TIS_DCAM-Property Brightness",
+    "TIS_DCAM-Property Gain",
+    "TIS_DCAM-Property Gain_Auto",
+    "TIS_DCAM-Property White_Balance",
+    "TIS_DCAM-Property White_Balance_Auto",
+    "TIS_DCAM-Property White_Balance_Blue",
+    "TIS_DCAM-Property White_Balance_Green",
+    "TIS_DCAM-Property White_Balance_Red",
+    "TIS_DCAM-TransposeCorrection",
+    "TIS_DCAM-TransposeMirrorX",
+    "TIS_DCAM-TransposeMirrorY",
+    "TIS_DCAM-TransposeXY",
+    "TIS_DCAM-TriggerMode",
+    "Core-AutoFocus",
+    "Core-AutoShutter",
+    "Core-Camera",
+    "Core-ChannelGroup",
+    "Core-Focus",
+    "Core-Galvo",
+    "Core-ImageProcessor",
+    "Core-Initialize",
+    "Core-SLM",
+    "Core-Shutter",
+    "Core-TimeoutMs",
+    "Core-XYStage"
+  ],
+  "UserData": {
+    "Core-AutoFocus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-AutoShutter": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-Camera": {
+      "type": "STRING",
+      "scalar": "TIS_DCAM"
+    },
+    "Core-ChannelGroup": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Focus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Galvo": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-ImageProcessor": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Initialize": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-SLM": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Shutter": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-TimeoutMs": {
+      "type": "STRING",
+      "scalar": "5000"
+    },
+    "Core-XYStage": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "ROI-X-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "ROI-Y-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "StartTime-ms": {
+      "type": "STRING",
+      "scalar": "790257423125.79"
+    },
+    "TIS_DCAM-Binning": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "TIS_DCAM-CameraName": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03"
+    },
+    "TIS_DCAM-DeNoise": {
+      "type": "STRING",
+      "scalar": "2"
+    },
+    "TIS_DCAM-Description": {
+      "type": "STRING",
+      "scalar": "TIS DirectShow driver module"
+    },
+    "TIS_DCAM-Device Flip_H": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Flip_V": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Properties": {
+      "type": "STRING",
+      "scalar": "Click here for Device Property dialog"
+    },
+    "TIS_DCAM-Device Rotation": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Device SerialNumber": {
+      "type": "STRING",
+      "scalar": "0x44310021"
+    },
+    "TIS_DCAM-ElapsedTime-ms": {
+      "type": "STRING",
+      "scalar": "790260282762.99"
+    },
+    "TIS_DCAM-Exposure": {
+      "type": "STRING",
+      "scalar": "1.00"
+    },
+    "TIS_DCAM-Exposure Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-ImageNumber": {
+      "type": "STRING",
+      "scalar": "21463"
+    },
+    "TIS_DCAM-Name": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03 Y800 (744x480)"
+    },
+    "TIS_DCAM-Property Brightness": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property Gain": {
+      "type": "STRING",
+      "scalar": "16"
+    },
+    "TIS_DCAM-Property Gain_Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Property White_Balance": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Auto": {
+      "type": "STRING",
+      "scalar": "n/a"
+    },
+    "TIS_DCAM-Property White_Balance_Blue": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Green": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Red": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-StartTime-ms": {
+      "type": "STRING",
+      "scalar": "0.00"
+    },
+    "TIS_DCAM-TransposeCorrection": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorX": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeXY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TriggerMode": {
+      "type": "STRING",
+      "scalar": "Internal"
+    },
+    "TimeReceivedByCore": {
+      "type": "STRING",
+      "scalar": "2025-01-15 12:44:42.762986"
+    }
+  },
+  "FileName": "full_beam_MMStack_Default.ome.tif"
+},
+"FrameKey-4-0-0": {
+  "UUID": "45c0a7cd-f270-4cac-b638-806710554f66",
+  "Camera": "TIS_DCAM",
+  "Binning": 1,
+  "ROI": "0-0-744-480",
+  "BitDepth": 8,
+  "ElapsedTime-ms": 2862301.92,
+  "ImageNumber": 197,
+  "ReceivedTime": "2025-01-15 12:44:45.450 +0100",
+  "PixelSizeUm": 0.0,
+  "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
+  "PositionName": "Default",
+  "XPositionUm": 0.0,
+  "YPositionUm": 0.0,
+  "ZPositionUm": 0.0,
+  "TIS_DCAM-Binning": "1",
+  "TIS_DCAM-CameraName": "DMK 22BUC03",
+  "TIS_DCAM-DeNoise": "2",
+  "TIS_DCAM-Description": "TIS DirectShow driver module",
+  "TIS_DCAM-Device Flip_H": "Off",
+  "TIS_DCAM-Device Flip_V": "Off",
+  "TIS_DCAM-Device Properties": "Click here for Device Property dialog",
+  "TIS_DCAM-Device Rotation": "0",
+  "TIS_DCAM-Device SerialNumber": "0x44310021",
+  "TIS_DCAM-Exposure": "1.00",
+  "TIS_DCAM-Exposure Auto": "Off",
+  "TIS_DCAM-Name": "DMK 22BUC03 Y800 (744x480)",
+  "TIS_DCAM-Property Brightness": "0",
+  "TIS_DCAM-Property Gain": "16",
+  "TIS_DCAM-Property Gain_Auto": "Off",
+  "TIS_DCAM-Property White_Balance": "0",
+  "TIS_DCAM-Property White_Balance_Auto": "n/a",
+  "TIS_DCAM-Property White_Balance_Blue": "0",
+  "TIS_DCAM-Property White_Balance_Green": "0",
+  "TIS_DCAM-Property White_Balance_Red": "0",
+  "TIS_DCAM-TransposeCorrection": "0",
+  "TIS_DCAM-TransposeMirrorX": "0",
+  "TIS_DCAM-TransposeMirrorY": "0",
+  "TIS_DCAM-TransposeXY": "0",
+  "TIS_DCAM-TriggerMode": "Internal",
+  "Core-AutoFocus": "",
+  "Core-AutoShutter": "1",
+  "Core-Camera": "TIS_DCAM",
+  "Core-ChannelGroup": "",
+  "Core-Focus": "",
+  "Core-Galvo": "",
+  "Core-ImageProcessor": "",
+  "Core-Initialize": "1",
+  "Core-SLM": "",
+  "Core-Shutter": "",
+  "Core-TimeoutMs": "5000",
+  "Core-XYStage": "",
+  "ScopeDataKeys": [
+    "TIS_DCAM-Binning",
+    "TIS_DCAM-CameraName",
+    "TIS_DCAM-DeNoise",
+    "TIS_DCAM-Description",
+    "TIS_DCAM-Device Flip_H",
+    "TIS_DCAM-Device Flip_V",
+    "TIS_DCAM-Device Properties",
+    "TIS_DCAM-Device Rotation",
+    "TIS_DCAM-Device SerialNumber",
+    "TIS_DCAM-Exposure",
+    "TIS_DCAM-Exposure Auto",
+    "TIS_DCAM-Name",
+    "TIS_DCAM-Property Brightness",
+    "TIS_DCAM-Property Gain",
+    "TIS_DCAM-Property Gain_Auto",
+    "TIS_DCAM-Property White_Balance",
+    "TIS_DCAM-Property White_Balance_Auto",
+    "TIS_DCAM-Property White_Balance_Blue",
+    "TIS_DCAM-Property White_Balance_Green",
+    "TIS_DCAM-Property White_Balance_Red",
+    "TIS_DCAM-TransposeCorrection",
+    "TIS_DCAM-TransposeMirrorX",
+    "TIS_DCAM-TransposeMirrorY",
+    "TIS_DCAM-TransposeXY",
+    "TIS_DCAM-TriggerMode",
+    "Core-AutoFocus",
+    "Core-AutoShutter",
+    "Core-Camera",
+    "Core-ChannelGroup",
+    "Core-Focus",
+    "Core-Galvo",
+    "Core-ImageProcessor",
+    "Core-Initialize",
+    "Core-SLM",
+    "Core-Shutter",
+    "Core-TimeoutMs",
+    "Core-XYStage"
+  ],
+  "UserData": {
+    "Core-AutoFocus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-AutoShutter": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-Camera": {
+      "type": "STRING",
+      "scalar": "TIS_DCAM"
+    },
+    "Core-ChannelGroup": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Focus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Galvo": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-ImageProcessor": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Initialize": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-SLM": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Shutter": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-TimeoutMs": {
+      "type": "STRING",
+      "scalar": "5000"
+    },
+    "Core-XYStage": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "ROI-X-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "ROI-Y-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "StartTime-ms": {
+      "type": "STRING",
+      "scalar": "790257423125.79"
+    },
+    "TIS_DCAM-Binning": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "TIS_DCAM-CameraName": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03"
+    },
+    "TIS_DCAM-DeNoise": {
+      "type": "STRING",
+      "scalar": "2"
+    },
+    "TIS_DCAM-Description": {
+      "type": "STRING",
+      "scalar": "TIS DirectShow driver module"
+    },
+    "TIS_DCAM-Device Flip_H": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Flip_V": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Properties": {
+      "type": "STRING",
+      "scalar": "Click here for Device Property dialog"
+    },
+    "TIS_DCAM-Device Rotation": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Device SerialNumber": {
+      "type": "STRING",
+      "scalar": "0x44310021"
+    },
+    "TIS_DCAM-ElapsedTime-ms": {
+      "type": "STRING",
+      "scalar": "790260285427.71"
+    },
+    "TIS_DCAM-Exposure": {
+      "type": "STRING",
+      "scalar": "1.00"
+    },
+    "TIS_DCAM-Exposure Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-ImageNumber": {
+      "type": "STRING",
+      "scalar": "21483"
+    },
+    "TIS_DCAM-Name": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03 Y800 (744x480)"
+    },
+    "TIS_DCAM-Property Brightness": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property Gain": {
+      "type": "STRING",
+      "scalar": "16"
+    },
+    "TIS_DCAM-Property Gain_Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Property White_Balance": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Auto": {
+      "type": "STRING",
+      "scalar": "n/a"
+    },
+    "TIS_DCAM-Property White_Balance_Blue": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Green": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Red": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-StartTime-ms": {
+      "type": "STRING",
+      "scalar": "0.00"
+    },
+    "TIS_DCAM-TransposeCorrection": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorX": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeXY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TriggerMode": {
+      "type": "STRING",
+      "scalar": "Internal"
+    },
+    "TimeReceivedByCore": {
+      "type": "STRING",
+      "scalar": "2025-01-15 12:44:45.427709"
+    }
+  },
+  "FileName": "full_beam_MMStack_Default.ome.tif"
+},
+"FrameKey-5-0-0": {
+  "UUID": "8d3d3455-66e7-4d03-8e95-a4c0b275bbdd",
+  "Camera": "TIS_DCAM",
+  "Binning": 1,
+  "ROI": "0-0-744-480",
+  "BitDepth": 8,
+  "ElapsedTime-ms": 2864832.65,
+  "ImageNumber": 216,
+  "ReceivedTime": "2025-01-15 12:44:47.983 +0100",
+  "PixelSizeUm": 0.0,
+  "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
+  "PositionName": "Default",
+  "XPositionUm": 0.0,
+  "YPositionUm": 0.0,
+  "ZPositionUm": 0.0,
+  "TIS_DCAM-Binning": "1",
+  "TIS_DCAM-CameraName": "DMK 22BUC03",
+  "TIS_DCAM-DeNoise": "2",
+  "TIS_DCAM-Description": "TIS DirectShow driver module",
+  "TIS_DCAM-Device Flip_H": "Off",
+  "TIS_DCAM-Device Flip_V": "Off",
+  "TIS_DCAM-Device Properties": "Click here for Device Property dialog",
+  "TIS_DCAM-Device Rotation": "0",
+  "TIS_DCAM-Device SerialNumber": "0x44310021",
+  "TIS_DCAM-Exposure": "1.00",
+  "TIS_DCAM-Exposure Auto": "Off",
+  "TIS_DCAM-Name": "DMK 22BUC03 Y800 (744x480)",
+  "TIS_DCAM-Property Brightness": "0",
+  "TIS_DCAM-Property Gain": "16",
+  "TIS_DCAM-Property Gain_Auto": "Off",
+  "TIS_DCAM-Property White_Balance": "0",
+  "TIS_DCAM-Property White_Balance_Auto": "n/a",
+  "TIS_DCAM-Property White_Balance_Blue": "0",
+  "TIS_DCAM-Property White_Balance_Green": "0",
+  "TIS_DCAM-Property White_Balance_Red": "0",
+  "TIS_DCAM-TransposeCorrection": "0",
+  "TIS_DCAM-TransposeMirrorX": "0",
+  "TIS_DCAM-TransposeMirrorY": "0",
+  "TIS_DCAM-TransposeXY": "0",
+  "TIS_DCAM-TriggerMode": "Internal",
+  "Core-AutoFocus": "",
+  "Core-AutoShutter": "1",
+  "Core-Camera": "TIS_DCAM",
+  "Core-ChannelGroup": "",
+  "Core-Focus": "",
+  "Core-Galvo": "",
+  "Core-ImageProcessor": "",
+  "Core-Initialize": "1",
+  "Core-SLM": "",
+  "Core-Shutter": "",
+  "Core-TimeoutMs": "5000",
+  "Core-XYStage": "",
+  "ScopeDataKeys": [
+    "TIS_DCAM-Binning",
+    "TIS_DCAM-CameraName",
+    "TIS_DCAM-DeNoise",
+    "TIS_DCAM-Description",
+    "TIS_DCAM-Device Flip_H",
+    "TIS_DCAM-Device Flip_V",
+    "TIS_DCAM-Device Properties",
+    "TIS_DCAM-Device Rotation",
+    "TIS_DCAM-Device SerialNumber",
+    "TIS_DCAM-Exposure",
+    "TIS_DCAM-Exposure Auto",
+    "TIS_DCAM-Name",
+    "TIS_DCAM-Property Brightness",
+    "TIS_DCAM-Property Gain",
+    "TIS_DCAM-Property Gain_Auto",
+    "TIS_DCAM-Property White_Balance",
+    "TIS_DCAM-Property White_Balance_Auto",
+    "TIS_DCAM-Property White_Balance_Blue",
+    "TIS_DCAM-Property White_Balance_Green",
+    "TIS_DCAM-Property White_Balance_Red",
+    "TIS_DCAM-TransposeCorrection",
+    "TIS_DCAM-TransposeMirrorX",
+    "TIS_DCAM-TransposeMirrorY",
+    "TIS_DCAM-TransposeXY",
+    "TIS_DCAM-TriggerMode",
+    "Core-AutoFocus",
+    "Core-AutoShutter",
+    "Core-Camera",
+    "Core-ChannelGroup",
+    "Core-Focus",
+    "Core-Galvo",
+    "Core-ImageProcessor",
+    "Core-Initialize",
+    "Core-SLM",
+    "Core-Shutter",
+    "Core-TimeoutMs",
+    "Core-XYStage"
+  ],
+  "UserData": {
+    "Core-AutoFocus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-AutoShutter": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-Camera": {
+      "type": "STRING",
+      "scalar": "TIS_DCAM"
+    },
+    "Core-ChannelGroup": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Focus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Galvo": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-ImageProcessor": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Initialize": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-SLM": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Shutter": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-TimeoutMs": {
+      "type": "STRING",
+      "scalar": "5000"
+    },
+    "Core-XYStage": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "ROI-X-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "ROI-Y-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "StartTime-ms": {
+      "type": "STRING",
+      "scalar": "790257423125.79"
+    },
+    "TIS_DCAM-Binning": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "TIS_DCAM-CameraName": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03"
+    },
+    "TIS_DCAM-DeNoise": {
+      "type": "STRING",
+      "scalar": "2"
+    },
+    "TIS_DCAM-Description": {
+      "type": "STRING",
+      "scalar": "TIS DirectShow driver module"
+    },
+    "TIS_DCAM-Device Flip_H": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Flip_V": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Properties": {
+      "type": "STRING",
+      "scalar": "Click here for Device Property dialog"
+    },
+    "TIS_DCAM-Device Rotation": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Device SerialNumber": {
+      "type": "STRING",
+      "scalar": "0x44310021"
+    },
+    "TIS_DCAM-ElapsedTime-ms": {
+      "type": "STRING",
+      "scalar": "790260287958.43"
+    },
+    "TIS_DCAM-Exposure": {
+      "type": "STRING",
+      "scalar": "1.00"
+    },
+    "TIS_DCAM-Exposure Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-ImageNumber": {
+      "type": "STRING",
+      "scalar": "21502"
+    },
+    "TIS_DCAM-Name": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03 Y800 (744x480)"
+    },
+    "TIS_DCAM-Property Brightness": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property Gain": {
+      "type": "STRING",
+      "scalar": "16"
+    },
+    "TIS_DCAM-Property Gain_Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Property White_Balance": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Auto": {
+      "type": "STRING",
+      "scalar": "n/a"
+    },
+    "TIS_DCAM-Property White_Balance_Blue": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Green": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Red": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-StartTime-ms": {
+      "type": "STRING",
+      "scalar": "0.00"
+    },
+    "TIS_DCAM-TransposeCorrection": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorX": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeXY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TriggerMode": {
+      "type": "STRING",
+      "scalar": "Internal"
+    },
+    "TimeReceivedByCore": {
+      "type": "STRING",
+      "scalar": "2025-01-15 12:44:47.959432"
+    }
+  },
+  "FileName": "full_beam_MMStack_Default.ome.tif"
+},
+"FrameKey-6-0-0": {
+  "UUID": "a17b6510-16fa-4ca9-99c0-42c022de13dd",
+  "Camera": "TIS_DCAM",
+  "Binning": 1,
+  "ROI": "0-0-744-480",
+  "BitDepth": 8,
+  "ElapsedTime-ms": 2868030.95,
+  "ImageNumber": 240,
+  "ReceivedTime": "2025-01-15 12:44:51.179 +0100",
+  "PixelSizeUm": 0.0,
+  "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
+  "PositionName": "Default",
+  "XPositionUm": 0.0,
+  "YPositionUm": 0.0,
+  "ZPositionUm": 0.0,
+  "TIS_DCAM-Binning": "1",
+  "TIS_DCAM-CameraName": "DMK 22BUC03",
+  "TIS_DCAM-DeNoise": "2",
+  "TIS_DCAM-Description": "TIS DirectShow driver module",
+  "TIS_DCAM-Device Flip_H": "Off",
+  "TIS_DCAM-Device Flip_V": "Off",
+  "TIS_DCAM-Device Properties": "Click here for Device Property dialog",
+  "TIS_DCAM-Device Rotation": "0",
+  "TIS_DCAM-Device SerialNumber": "0x44310021",
+  "TIS_DCAM-Exposure": "1.00",
+  "TIS_DCAM-Exposure Auto": "Off",
+  "TIS_DCAM-Name": "DMK 22BUC03 Y800 (744x480)",
+  "TIS_DCAM-Property Brightness": "0",
+  "TIS_DCAM-Property Gain": "16",
+  "TIS_DCAM-Property Gain_Auto": "Off",
+  "TIS_DCAM-Property White_Balance": "0",
+  "TIS_DCAM-Property White_Balance_Auto": "n/a",
+  "TIS_DCAM-Property White_Balance_Blue": "0",
+  "TIS_DCAM-Property White_Balance_Green": "0",
+  "TIS_DCAM-Property White_Balance_Red": "0",
+  "TIS_DCAM-TransposeCorrection": "0",
+  "TIS_DCAM-TransposeMirrorX": "0",
+  "TIS_DCAM-TransposeMirrorY": "0",
+  "TIS_DCAM-TransposeXY": "0",
+  "TIS_DCAM-TriggerMode": "Internal",
+  "Core-AutoFocus": "",
+  "Core-AutoShutter": "1",
+  "Core-Camera": "TIS_DCAM",
+  "Core-ChannelGroup": "",
+  "Core-Focus": "",
+  "Core-Galvo": "",
+  "Core-ImageProcessor": "",
+  "Core-Initialize": "1",
+  "Core-SLM": "",
+  "Core-Shutter": "",
+  "Core-TimeoutMs": "5000",
+  "Core-XYStage": "",
+  "ScopeDataKeys": [
+    "TIS_DCAM-Binning",
+    "TIS_DCAM-CameraName",
+    "TIS_DCAM-DeNoise",
+    "TIS_DCAM-Description",
+    "TIS_DCAM-Device Flip_H",
+    "TIS_DCAM-Device Flip_V",
+    "TIS_DCAM-Device Properties",
+    "TIS_DCAM-Device Rotation",
+    "TIS_DCAM-Device SerialNumber",
+    "TIS_DCAM-Exposure",
+    "TIS_DCAM-Exposure Auto",
+    "TIS_DCAM-Name",
+    "TIS_DCAM-Property Brightness",
+    "TIS_DCAM-Property Gain",
+    "TIS_DCAM-Property Gain_Auto",
+    "TIS_DCAM-Property White_Balance",
+    "TIS_DCAM-Property White_Balance_Auto",
+    "TIS_DCAM-Property White_Balance_Blue",
+    "TIS_DCAM-Property White_Balance_Green",
+    "TIS_DCAM-Property White_Balance_Red",
+    "TIS_DCAM-TransposeCorrection",
+    "TIS_DCAM-TransposeMirrorX",
+    "TIS_DCAM-TransposeMirrorY",
+    "TIS_DCAM-TransposeXY",
+    "TIS_DCAM-TriggerMode",
+    "Core-AutoFocus",
+    "Core-AutoShutter",
+    "Core-Camera",
+    "Core-ChannelGroup",
+    "Core-Focus",
+    "Core-Galvo",
+    "Core-ImageProcessor",
+    "Core-Initialize",
+    "Core-SLM",
+    "Core-Shutter",
+    "Core-TimeoutMs",
+    "Core-XYStage"
+  ],
+  "UserData": {
+    "Core-AutoFocus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-AutoShutter": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-Camera": {
+      "type": "STRING",
+      "scalar": "TIS_DCAM"
+    },
+    "Core-ChannelGroup": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Focus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Galvo": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-ImageProcessor": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Initialize": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-SLM": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Shutter": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-TimeoutMs": {
+      "type": "STRING",
+      "scalar": "5000"
+    },
+    "Core-XYStage": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "ROI-X-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "ROI-Y-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "StartTime-ms": {
+      "type": "STRING",
+      "scalar": "790257423125.79"
+    },
+    "TIS_DCAM-Binning": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "TIS_DCAM-CameraName": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03"
+    },
+    "TIS_DCAM-DeNoise": {
+      "type": "STRING",
+      "scalar": "2"
+    },
+    "TIS_DCAM-Description": {
+      "type": "STRING",
+      "scalar": "TIS DirectShow driver module"
+    },
+    "TIS_DCAM-Device Flip_H": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Flip_V": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Properties": {
+      "type": "STRING",
+      "scalar": "Click here for Device Property dialog"
+    },
+    "TIS_DCAM-Device Rotation": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Device SerialNumber": {
+      "type": "STRING",
+      "scalar": "0x44310021"
+    },
+    "TIS_DCAM-ElapsedTime-ms": {
+      "type": "STRING",
+      "scalar": "790260291156.74"
+    },
+    "TIS_DCAM-Exposure": {
+      "type": "STRING",
+      "scalar": "1.00"
+    },
+    "TIS_DCAM-Exposure Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-ImageNumber": {
+      "type": "STRING",
+      "scalar": "21526"
+    },
+    "TIS_DCAM-Name": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03 Y800 (744x480)"
+    },
+    "TIS_DCAM-Property Brightness": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property Gain": {
+      "type": "STRING",
+      "scalar": "16"
+    },
+    "TIS_DCAM-Property Gain_Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Property White_Balance": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Auto": {
+      "type": "STRING",
+      "scalar": "n/a"
+    },
+    "TIS_DCAM-Property White_Balance_Blue": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Green": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Red": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-StartTime-ms": {
+      "type": "STRING",
+      "scalar": "0.00"
+    },
+    "TIS_DCAM-TransposeCorrection": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorX": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeXY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TriggerMode": {
+      "type": "STRING",
+      "scalar": "Internal"
+    },
+    "TimeReceivedByCore": {
+      "type": "STRING",
+      "scalar": "2025-01-15 12:44:51.157764"
+    }
+  },
+  "FileName": "full_beam_MMStack_Default.ome.tif"
+},
+"FrameKey-7-0-0": {
+  "UUID": "b31d2e1b-968e-418e-ba99-8eaff76a28f3",
+  "Camera": "TIS_DCAM",
+  "Binning": 1,
+  "ROI": "0-0-744-480",
+  "BitDepth": 8,
+  "ElapsedTime-ms": 2871228.91,
+  "ImageNumber": 264,
+  "ReceivedTime": "2025-01-15 12:44:54.375 +0100",
+  "PixelSizeUm": 0.0,
+  "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
+  "PositionName": "Default",
+  "XPositionUm": 0.0,
+  "YPositionUm": 0.0,
+  "ZPositionUm": 0.0,
+  "TIS_DCAM-Binning": "1",
+  "TIS_DCAM-CameraName": "DMK 22BUC03",
+  "TIS_DCAM-DeNoise": "2",
+  "TIS_DCAM-Description": "TIS DirectShow driver module",
+  "TIS_DCAM-Device Flip_H": "Off",
+  "TIS_DCAM-Device Flip_V": "Off",
+  "TIS_DCAM-Device Properties": "Click here for Device Property dialog",
+  "TIS_DCAM-Device Rotation": "0",
+  "TIS_DCAM-Device SerialNumber": "0x44310021",
+  "TIS_DCAM-Exposure": "1.00",
+  "TIS_DCAM-Exposure Auto": "Off",
+  "TIS_DCAM-Name": "DMK 22BUC03 Y800 (744x480)",
+  "TIS_DCAM-Property Brightness": "0",
+  "TIS_DCAM-Property Gain": "16",
+  "TIS_DCAM-Property Gain_Auto": "Off",
+  "TIS_DCAM-Property White_Balance": "0",
+  "TIS_DCAM-Property White_Balance_Auto": "n/a",
+  "TIS_DCAM-Property White_Balance_Blue": "0",
+  "TIS_DCAM-Property White_Balance_Green": "0",
+  "TIS_DCAM-Property White_Balance_Red": "0",
+  "TIS_DCAM-TransposeCorrection": "0",
+  "TIS_DCAM-TransposeMirrorX": "0",
+  "TIS_DCAM-TransposeMirrorY": "0",
+  "TIS_DCAM-TransposeXY": "0",
+  "TIS_DCAM-TriggerMode": "Internal",
+  "Core-AutoFocus": "",
+  "Core-AutoShutter": "1",
+  "Core-Camera": "TIS_DCAM",
+  "Core-ChannelGroup": "",
+  "Core-Focus": "",
+  "Core-Galvo": "",
+  "Core-ImageProcessor": "",
+  "Core-Initialize": "1",
+  "Core-SLM": "",
+  "Core-Shutter": "",
+  "Core-TimeoutMs": "5000",
+  "Core-XYStage": "",
+  "ScopeDataKeys": [
+    "TIS_DCAM-Binning",
+    "TIS_DCAM-CameraName",
+    "TIS_DCAM-DeNoise",
+    "TIS_DCAM-Description",
+    "TIS_DCAM-Device Flip_H",
+    "TIS_DCAM-Device Flip_V",
+    "TIS_DCAM-Device Properties",
+    "TIS_DCAM-Device Rotation",
+    "TIS_DCAM-Device SerialNumber",
+    "TIS_DCAM-Exposure",
+    "TIS_DCAM-Exposure Auto",
+    "TIS_DCAM-Name",
+    "TIS_DCAM-Property Brightness",
+    "TIS_DCAM-Property Gain",
+    "TIS_DCAM-Property Gain_Auto",
+    "TIS_DCAM-Property White_Balance",
+    "TIS_DCAM-Property White_Balance_Auto",
+    "TIS_DCAM-Property White_Balance_Blue",
+    "TIS_DCAM-Property White_Balance_Green",
+    "TIS_DCAM-Property White_Balance_Red",
+    "TIS_DCAM-TransposeCorrection",
+    "TIS_DCAM-TransposeMirrorX",
+    "TIS_DCAM-TransposeMirrorY",
+    "TIS_DCAM-TransposeXY",
+    "TIS_DCAM-TriggerMode",
+    "Core-AutoFocus",
+    "Core-AutoShutter",
+    "Core-Camera",
+    "Core-ChannelGroup",
+    "Core-Focus",
+    "Core-Galvo",
+    "Core-ImageProcessor",
+    "Core-Initialize",
+    "Core-SLM",
+    "Core-Shutter",
+    "Core-TimeoutMs",
+    "Core-XYStage"
+  ],
+  "UserData": {
+    "Core-AutoFocus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-AutoShutter": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-Camera": {
+      "type": "STRING",
+      "scalar": "TIS_DCAM"
+    },
+    "Core-ChannelGroup": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Focus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Galvo": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-ImageProcessor": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Initialize": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-SLM": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Shutter": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-TimeoutMs": {
+      "type": "STRING",
+      "scalar": "5000"
+    },
+    "Core-XYStage": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "ROI-X-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "ROI-Y-start": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "StartTime-ms": {
+      "type": "STRING",
+      "scalar": "790257423125.79"
+    },
+    "TIS_DCAM-Binning": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "TIS_DCAM-CameraName": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03"
+    },
+    "TIS_DCAM-DeNoise": {
+      "type": "STRING",
+      "scalar": "2"
+    },
+    "TIS_DCAM-Description": {
+      "type": "STRING",
+      "scalar": "TIS DirectShow driver module"
+    },
+    "TIS_DCAM-Device Flip_H": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Flip_V": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Device Properties": {
+      "type": "STRING",
+      "scalar": "Click here for Device Property dialog"
+    },
+    "TIS_DCAM-Device Rotation": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Device SerialNumber": {
+      "type": "STRING",
+      "scalar": "0x44310021"
+    },
+    "TIS_DCAM-ElapsedTime-ms": {
+      "type": "STRING",
+      "scalar": "790260294354.70"
+    },
+    "TIS_DCAM-Exposure": {
+      "type": "STRING",
+      "scalar": "1.00"
+    },
+    "TIS_DCAM-Exposure Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-ImageNumber": {
+      "type": "STRING",
+      "scalar": "21550"
+    },
+    "TIS_DCAM-Name": {
+      "type": "STRING",
+      "scalar": "DMK 22BUC03 Y800 (744x480)"
+    },
+    "TIS_DCAM-Property Brightness": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property Gain": {
+      "type": "STRING",
+      "scalar": "16"
+    },
+    "TIS_DCAM-Property Gain_Auto": {
+      "type": "STRING",
+      "scalar": "Off"
+    },
+    "TIS_DCAM-Property White_Balance": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Auto": {
+      "type": "STRING",
+      "scalar": "n/a"
+    },
+    "TIS_DCAM-Property White_Balance_Blue": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Green": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-Property White_Balance_Red": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-StartTime-ms": {
+      "type": "STRING",
+      "scalar": "0.00"
+    },
+    "TIS_DCAM-TransposeCorrection": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorX": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeMirrorY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TransposeXY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "TIS_DCAM-TriggerMode": {
+      "type": "STRING",
+      "scalar": "Internal"
+    },
+    "TimeReceivedByCore": {
+      "type": "STRING",
+      "scalar": "2025-01-15 12:44:54.354696"
+    }
+  },
+  "FileName": "full_beam_MMStack_Default.ome.tif"
+}
+}

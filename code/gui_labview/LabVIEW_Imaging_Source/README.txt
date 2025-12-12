@@ -1,0 +1,1 @@
+Obtained from the Imaging Source website
