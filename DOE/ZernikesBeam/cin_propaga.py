@@ -9,7 +9,7 @@ Created on Fri Feb  7 10:51:57 2025
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-import request
+import requests
 from pathlib import Path
 from scipy import special
 from scipy.optimize import dual_annealing, minimize, differential_evolution
@@ -199,7 +199,7 @@ def coeffZernikeRadial_nm(n, m):
     return poli
 
 
-def download(fn):
+def download(path):
 
     github = 'https://raw.githubusercontent.com'
     org = 'WavefrontEngUB'
@@ -207,12 +207,12 @@ def download(fn):
     branch = 'main'
     relative = 'DOE/ZernikesBeam'
 
-    url = f"{github}/{org}/{repo}/{branch}/{relative}/{str(fn)}"
+    url = f"{github}/{org}/{repo}/{branch}/{relative}/{str(path.name)}"
 
     response = requests.get(url, timeout=30)
     response.raise_for_status()  # error si falla
 
-    dest_path.write_bytes(response.content)
+    path.write_bytes(response.content)
 
 
 def load_coef(a=0.95, coef=6, NP=256, nterms=6, zonaVisPp2=2):
