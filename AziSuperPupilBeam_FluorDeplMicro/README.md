@@ -9,4 +9,46 @@ Martínez-Herrero<sup>c</sup>, Artur Carnicer<sup>a,*</sup>**
 
 *<sup>c</sup>Departamento de Óptica, Facultad de Ciencias Físicas, Universidad Complutense de Madrid, Plaza de las Ciencias 1, Madrid, 28040, Spain*
 
-This folder in the repository contains the code to geretate the Figures of this manuscript abovementioned.
+---
+
+### Manuscript status
+
+Submitted for peer review (2026).
+
+Citation information, DOI, journal reference and abstract will be added upon acceptance.
+
+---
+
+### Overview
+
+This directory contains the scripts and resources used to generate the figures presented in the manuscript.
+
+The repository is organized to facilitate reproducibility of the numerical simulations and figure generation workflow used throughout the study.
+
+---
+
+### Repository contents
+
+- `FigureA.py` – Generates Figure A
+- `FigureB.py` – Generates Figure B
+- `FigureC.py` – Generates Figure C
+- `FigureD.py` – Generates Figure D
+- `FigureE.py` – Generates Figure E
+
+Additional resources:
+- `FiguresA_and_E.py` – Shared routines for Figures A and E
+- `Transverse_irradian_*.pdf` – Precomputed simulation outputs
+- `*.svg` / `*.pdf` – Exported vector versions of the figures
+
+---
+
+### Requirements
+
+The scripts were developed and tested using:
+
+- Python 3.10+
+- NumPy
+- SciPy
+- Matplotlib
+
+Depending on the figure, additional scientific Python packages may be required.
